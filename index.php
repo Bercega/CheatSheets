@@ -14,6 +14,8 @@
 
     Hello 3 !
 
+    <?php require "inc.php" ?>
+
 </body>
 
 </html>
