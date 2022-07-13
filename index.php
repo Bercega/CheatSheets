@@ -16,6 +16,12 @@
 
     <?php require "inc.php" ?>
 
+    <br>
+
+    Je veux faire des modifications !
+
+    Mais à prendre en compte dans la branche test !
+
 </body>
 
 </html>
