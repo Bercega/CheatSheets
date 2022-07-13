@@ -20,7 +20,9 @@
 
     Je veux faire des modifications !
 
-    Mais à prendre en compte dans la branche test !
+    C'est l'inverse !
+
+    Mais à prendre en compte dans la branche main !
 
 </body>
 
