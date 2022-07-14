@@ -1,0 +1,21 @@
+// Initialiser le dépot local, créé le dossier .git
+git init 
+
+// Faire un commit
+git add .
+git commit -m "message"
+
+// Initialiser le dépôt distant github et faire le premier push
+// bien s'assurer que le dépôt est privé et que .gitignore est bien parametré
+git remote add origin https://github.com/Bercega/CheatSheets.git
+git push -u origin main
+
+// Récuperer un dépot
+git init
+git pull https://github.com/Bercega/CheatSheets.git
+
+// Créer une branche 
+git branch -c nom_de_la_branche
+
+// Changer de branche
+git checkout nom_de_la_branche
