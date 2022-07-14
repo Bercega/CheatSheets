@@ -1,0 +1,13 @@
+// Installer composer sur un projet
+Composer init
+// Puis créer le système d'autoload psr-4
+// Puis faire require dans le projet de "vendor/autoload.php"
+// Puis regenerer l'autoloader
+composer dump-autoload
+
+
+// Installer une dépendance
+composer require **/**
+// Puis ajouter le namspace au composer.json pour l'autoload
+// Puis regenerer l'autoloader
+composer dump-autoload
