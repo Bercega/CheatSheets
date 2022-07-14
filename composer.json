@@ -1,0 +1,15 @@
+{
+    "name": "bercega/test",
+    "autoload": {
+        "psr-4": {
+            "Bercega\\Test\\": "src/",
+            "Soundasleep\\": "vendor/soundasleep/html2text/src/"
+        }
+    },
+    "require-dev": {
+        "theseer/tokenizer": "^1.2"
+    },
+    "require": {
+        "soundasleep/html2text": "^2.0"
+    }
+}
