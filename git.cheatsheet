@@ -10,6 +10,9 @@ git commit -m "message"
 git remote add origin https://github.com/Bercega/CheatSheets.git
 git push -u origin main
 
+// Changer le dépôt distant
+git remote set-url origin https://github.com/Bercega/CheatSheets.git 
+
 // Récuperer un dépot
 git init
 git pull https://github.com/Bercega/CheatSheets.git
@@ -19,3 +22,5 @@ git branch -c nom_de_la_branche
 
 // Changer de branche
 git checkout nom_de_la_branche
+
+// nouvelle version test
