@@ -17,10 +17,24 @@ git remote set-url origin https://github.com/Bercega/CheatSheets.git
 git init
 git pull https://github.com/Bercega/CheatSheets.git
 
+
+
+// Voir les branches existantes et actuelle
+git branch
+
 // Créer une branche 
-git branch -c nom_de_la_branche
+git switch -c nom_de_la_branche
 
 // Changer de branche
-git checkout nom_de_la_branche
+git switch nom_de_la_branche
 
-// nouvelle version test
+// Supprimer une branche
+git branch -D nom_de_la_branche
+
+
+// Voir l'historique et les hashs
+git log
+
+// Voir une version
+git checkout nom_de_la_branche
+git checkout hash
