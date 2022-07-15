@@ -11,3 +11,7 @@ composer require **/**
 // Puis ajouter le namspace au composer.json pour l'autoload
 // Puis regenerer l'autoloader
 composer dump-autoload
+
+// Récuperer les dépendénces à partir d'un composer.json
+// Récuperer les fichiers du dépot distant
+composer install
